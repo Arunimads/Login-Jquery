@@ -1,0 +1,71 @@
+body{
+    background-image: url(./image/background.jpg);
+
+}
+
+h2{
+    margin-left: 15px;
+}
+.navbar a{
+    color: #ffff;
+    font-size: medium;
+    
+}
+.navbar .navbar-brand{
+    font-size:25px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+
+#login{
+    width: 380px;
+    height:450px;
+    border: 2px solid white;
+    background: transparent;
+    backdrop-filter: blur(40px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+#register{
+    width: 380px;
+    height:450px;
+    border: 2px solid white;
+    background: transparent;
+    backdrop-filter: blur(40px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+input{
+    border:0px;
+    
+
+}
+.btn-close{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+i{
+    float:right
+}
+#forget{
+     text-decoration:none ;
+     color:black;
+     float: right;
+     
+}
+div a{
+    color: black;
+}
